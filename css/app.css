@@ -1,0 +1,53 @@
+#display_div {
+   width:100%;
+   height:90%;
+}
+
+#vertex_display {
+   position:block;
+   width:100%;
+   height:100%;
+   border:1px solid #000000;
+}
+#edge_display {
+   position:block;   
+}
+
+.dump_graph_textarea{   
+   width:100%; 
+   resize:vertical;
+}
+
+div.line {
+   position:absolute;
+   transform-origin: 0% 50%;
+   -webkit-transform-origin: 0% 0%;   
+   -moz-transform-origin: 0% 0%;   
+   height: 5px;
+   background-color: #9487d3;
+   opacity:0.5;
+   /*transition: transform 1s;   
+   border-radius: 20px 0 0 0;*/
+}
+
+div.circle{
+   width:40px;
+   height:40px;
+   border-radius:20px;
+   background:linear-gradient(to bottom, #40b3ff, #09f);
+   
+   /*
+   transform-origin: center center;
+   -webkit-transform-origin: center center;
+   -moz-transform-origin: center center;
+   
+   transform:  translate(-20px,-20px);
+   -webkit-transform:  translate(-20px,-20px);
+   
+   color:#ef0b0b;   
+   background:#000;   
+   line-height:100px;
+   text-align:center;
+   font-size:20px;*/
+}
+
